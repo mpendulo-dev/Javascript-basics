@@ -1,0 +1,58 @@
+body,
+html,
+main {
+    margin: 5px;
+    padding: 0;
+    height: 0;
+    width: 0;
+}
+.card {
+    width: 286px;
+    background-color: #292b2c;
+    color: #fff;
+    border-radius: 10px #fff;
+    font-family: "Nunito Sans", sans-serif;
+}
+section {
+    padding: 10px;
+}
+.btn-primary {
+    width: 120px;
+    height: 40px;
+    background-color: #0275d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+/* Media query for laptops/medium screens */
+@media only screen and (max-width: 1440px) {
+    img {
+        width: 600px;
+        height: auto;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .card {
+        width: 600px;
+        border-radius: 8px;
+    }
+}
+
+/* Media query for mobile devices/small screens */
+@media only screen and (max-width: 625px) {
+    .card {
+        background-color: #5bc0de;
+        width: 286px;
+    }
+    .btn-primary {
+        background-color: #d9534f;
+    }
+    body {
+        background-color: #f0ad4e;
+    }
+    img {
+        width: 286px;
+        height: auto;
+    }
+}
